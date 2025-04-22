@@ -7,12 +7,15 @@
 
 #define NUM_GAZETS 5
 
+<<<<<<< HEAD
 struct Gazeta
 {
     char name[50];     // Название газеты
     char data[20];     // Дата выпуска
     int kol;           // Количество экземпляров
     int cena;          // Цена за один экземпляр
+=======
+
 };
 
 
