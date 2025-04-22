@@ -11,8 +11,8 @@
 struct Gazeta {
     char name[50];
     char data[20];
-    int kol; //количество газет
-    int cena; //цена газеты 
+    int kol a1; //количество газет
+    int cena a2; //цена газеты 
 };
 
 void inputGazetaData(struct Gazeta gazets[], int n) {
