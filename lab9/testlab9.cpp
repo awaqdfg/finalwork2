@@ -79,6 +79,11 @@ int main()
     system("chcp 1251"); 
     system("cls");        
 
+	int A[10] = {-10, -5, 0, 3, 7, -2, 8, 12, 15, 1};
+
+		for (int i = 0; i < 10; ++i) {
+			std::cout << A[i] << " ";
+		}
 
     struct Gazeta gazets[NUM_GAZETS];
 
