@@ -7,14 +7,13 @@
 
 #define NUM_GAZETS 5
 
-<<<<<<< HEAD
+
 struct Gazeta
 {
     char name[50];     // Название газеты
     char data[20];     // Дата выпуска
     int kol;           // Количество экземпляров
     int cena;          // Цена за один экземпляр
-======
 
 };
 
@@ -80,9 +79,12 @@ int main()
     system("cls");        
 
 	int A[10] = {-10, -5, 0, 3, 7, -2, 8, 12, 15, 1};
-
+		
+		std::cout << "Чётные числа";
 		for (int i = 0; i < 10; ++i) {
+			if (A[i] % 2 ==0) {
 			std::cout << A[i] << " ";
+			}
 		}
 
     struct Gazeta gazets[NUM_GAZETS];
