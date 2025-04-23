@@ -16,7 +16,7 @@ struct Gazeta
     int cena;          // Цена за один экземпляр
 
 };
-
+<<
 
 void inputGazetaData(struct Gazeta gazets[], int n)
 {
